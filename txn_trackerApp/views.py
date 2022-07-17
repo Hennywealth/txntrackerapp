@@ -27,4 +27,4 @@ def test(request):
         new_data = Address(name=name, address=address)
         new_data.save()
            
-    return render(request, 'index.html')
+    return HttpResponse('Done')
